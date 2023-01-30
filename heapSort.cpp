@@ -24,6 +24,7 @@ void heapify(int arr[], int node, int i)
 }
 
 void heapSort(int arr[],int n){
+    // heap root = n/2-1
     for (int i = n/2-1; i >= 0; i--)
     {
         heapify(arr,n,i);
