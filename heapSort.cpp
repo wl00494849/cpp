@@ -40,7 +40,7 @@ int main()
     int arr[] = {9,2,8,4,12,6,7,13,20};
     int lenght = sizeof(arr)/sizeof(int);
     heapSort(arr,lenght);
-
+    
     for (int i : arr)
     {
         cout << i << " ";
